@@ -1,0 +1,1 @@
+Library Project with dotnet 7
