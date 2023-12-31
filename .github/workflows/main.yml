@@ -21,3 +21,4 @@ jobs:
         with:
           folder: OpenAPI
           branch: gh-pages
+          target-folder: test
