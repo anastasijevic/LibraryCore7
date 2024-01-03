@@ -23,4 +23,4 @@ jobs:
           branch: gh-pages
           target-folder: test3
           repository-name: anastasijevic/anastasijevic.github.io
-          token: ${{ secrets.GH_PAGESSECRET }}
+          #token: ${{ secrets.GH_PAGESSECRET }}
