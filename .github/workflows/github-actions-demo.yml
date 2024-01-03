@@ -17,4 +17,9 @@ jobs:
         run: |
           ls ${{ github.workspace }}
       - run: echo "🍏 This job's status is ${{ job.status }}."
-      - run: echo "🍏 This job's status is ${{ secrets.GITHUB_TOKEN }}."
+      - name: Check out another repository code
+        uses: actions/checkout@v4
+        with:
+          path: 'dest'
+          ref: 'main'
+          repository: 'anastasijevic/anastasijevic.github.io'
