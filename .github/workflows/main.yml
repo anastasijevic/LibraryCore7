@@ -19,6 +19,11 @@ jobs:
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4
         with:
+          git-config-name: anastasijevic
+          git-config-email: aleksandar.anastasijevic@gmail.com
+          commit-message: 'Test commit'
+          clean: true
+          silent: true
           folder: OpenAPI
           branch: gh-pages
           target-folder: 'test3'
