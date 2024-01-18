@@ -22,7 +22,7 @@ jobs:
           git-config-name: anastasijevic
           git-config-email: aleksandar.anastasijevic@gmail.com
           commit-message: 'Test commit'
-          clean: true
+          #clean: true
           silent: true
           folder: OpenAPI
           branch: main
