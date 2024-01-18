@@ -27,5 +27,5 @@ jobs:
           folder: OpenAPI
           branch: main
           target-folder: 'test2'
-          repository-name: 'anastasijevic/anastasijevic.github.io'
+          repository-name: anastasijevic/anastasijevic.github.io
           ssh-key: ${{ secrets.DEPLOY__KEY }}
