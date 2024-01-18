@@ -28,4 +28,4 @@ jobs:
           branch: main
           target-folder: 'test2'
           repository-name: anastasijevic/anastasijevic.github.io
-          token: ${{ secrets.DEPLOY__KEY }}
+          ssh-key: ${{ secrets.DEPLOY__KEY }}
