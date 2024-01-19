@@ -22,10 +22,10 @@ jobs:
           git-config-name: anastasijevic
           git-config-email: aleksandar.anastasijevic@gmail.com
           repository-name: anastasijevic/anastasijevic.github.io
-          ssh-key: ${{ secrets.DEPLOY__KEY }}
+          ssh-key: ${{ secrets.DEPLOY_KEY }}
           commit-message: 'Test commit'
           branch: main
           folder: OpenAPI
-          target-folder: 'test2'
+          target-folder: 'test3'
           silent: true
           #clean: true
