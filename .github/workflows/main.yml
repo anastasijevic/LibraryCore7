@@ -9,6 +9,7 @@ jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
+      - run: echo "🎉 This is deploy key ${{ secrets.DEPLOY_KEY }}."
       - name: Checkout
         uses: actions/checkout@v3
 
